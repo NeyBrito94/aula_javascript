@@ -19,7 +19,7 @@ function voltar(elemeto){
     elemeto.innerHTML = "Passe o mouse aqui"
 }
 
-function funcaoChange(elemento){
+function funcaoChange(elemento){s
     console.log(elemento.value)
 }
 /*
@@ -33,6 +33,8 @@ function validadeIdade(idade){
     return validador;
     
 }
+
+
 
 var idade = prompt("Qual sua idade? ")
 console.log(validadeIdade(idade));
